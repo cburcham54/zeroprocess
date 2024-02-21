@@ -344,7 +344,7 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 225409813}
-    - {fileID: 0}
+    - {fileID: 2124561344}
 --- !u!4 &139645327
 Transform:
   m_ObjectHideFlags: 0
@@ -652,7 +652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 739831436819624180, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1583004
+      value: 1.1583003
       objectReference: {fileID: 0}
     - target: {fileID: 739831436819624180, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_LocalPosition.z
@@ -664,15 +664,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 739831436819624180, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 739831436819624180, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 739831436819624180, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 739831436819624180, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -695,6 +695,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de24a15a170dcb64287455525dc3e242, type: 3}
+--- !u!1 &2124561344 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8153937595778919955, guid: de24a15a170dcb64287455525dc3e242, type: 3}
+  m_PrefabInstance: {fileID: 2124561343}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1294974678653491556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -766,5 +771,5 @@ SceneRoots:
   - {fileID: 1294974678653491556}
   - {fileID: 896704648}
   - {fileID: 1769017910}
-  - {fileID: 8123033}
   - {fileID: 2124561343}
+  - {fileID: 8123033}
