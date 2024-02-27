@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1758366415847034848}
   - component: {fileID: 8713781211016195912}
   - component: {fileID: -3953316406785367635}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Earth_Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5149924429854931624}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
