@@ -428,12 +428,14 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsEarthAltReady","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Earth_Alt_Cooldown","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Earth_Alt_Object","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Earth_Main_Attack","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7184744977265106846, guid: 77001cf7b6f2c474b8701f5c31931072, type: 3}
     - {fileID: 3461695768755923212, guid: 331a21955912dbd40bcf249559141e20, type: 3}
     - {fileID: 7184744977265106846, guid: dc73d14f540a5634193c20c425bf5aaa, type: 3}
     - {fileID: 8016287321193541439, guid: 4513795273d3c544ca3045c83103902e, type: 3}
+    - {fileID: 5149924429854931624, guid: 5ebedee55c4327247bebccffd98717ca, type: 3}
 --- !u!114 &5441546795982446579
 MonoBehaviour:
   m_ObjectHideFlags: 0
