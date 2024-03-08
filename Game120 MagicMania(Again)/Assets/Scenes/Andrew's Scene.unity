@@ -139,10 +139,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6485914039126757357, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
-      propertyPath: m_Mass
-      value: 1000
-      objectReference: {fileID: 0}
     - target: {fileID: 8216983355978044830, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.13
@@ -452,7 +448,7 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Camera","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Camera,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player_Object","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Bullet
-      Speed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      Speed","value":{"$content":15.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsGameActive","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemiesSpawned","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -940,152 +936,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CanKeepSpawning","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyListLength","value":{"$content":20,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ListofListPoint","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyListPoint","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyList1","value":{"$content":[0,1,2,3,4,5,6,7,8,9],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyList2","value":{"$content":[10,11,12,13,14,15,16,17,18,19],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyList3","value":{"$content":[20,21,22,23,24,25,26,27,28,29],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyList4","value":{"$content":[30,31,32,33,34,35,36,37,38,39,40,41,42,43,44],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyList5","value":{"$content":[45,46,47,48,49,50,51,52,53,54,55,56,57,58,59],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"list
-        of list","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CurrentEnemyList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[14]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[15]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[19]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[22]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[24]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[26]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[28]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[30]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[31]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[32]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[33]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[36]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[39]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[40]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[41]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[42]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[43]
-      value: 
-      objectReference: {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[45]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[47]
-      value: 
-      objectReference: {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[48]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[50]
-      value: 
-      objectReference: {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[52]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[54]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[55]
-      value: 
-      objectReference: {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[56]
-      value: 
-      objectReference: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[57]
-      value: 
-      objectReference: {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[58]
-      value: 
-      objectReference: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - target: {fileID: 4176590076742116595, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
-      propertyPath: _data._objectReferences.Array.data[59]
-      value: 
-      objectReference: {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1221,10 +1071,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 899968821541449719, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-      propertyPath: m_Mass
-      value: 1000
-      objectReference: {fileID: 0}
     - target: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
       propertyPath: m_Name
       value: Basic_Enemy_Ranged
