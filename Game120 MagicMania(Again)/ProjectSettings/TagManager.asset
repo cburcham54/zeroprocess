@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - SHOOTED
+  - BasicMeleeSpawner
+  - BasicRangedSpawner
+  - MagicRangedSpawner
+  - JumpingMeleeSpawner
   layers:
   - Default
   - TransparentFX
