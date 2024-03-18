@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MT Sprite
-  m_Shader: {fileID: 4800000, guid: 1ecad76f5afc08c4baa59e2c3946bd55, type: 3}
+  m_Name: AllWhite
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  m_InvalidKeywords: []
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - PIXELSNAP_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -66,8 +66,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - PixelSnap: 0
-    - _AlphaClip: 1
+    - PixelSnap: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -83,7 +82,6 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StencilRef: 123
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
