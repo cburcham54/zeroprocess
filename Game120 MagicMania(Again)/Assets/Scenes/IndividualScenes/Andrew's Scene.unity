@@ -135,10 +135,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Magic_Enemy_Ranged
       objectReference: {fileID: 0}
-    - target: {fileID: 5203234919392129257, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8216983355978044830, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.74
@@ -182,7 +178,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1471823543390486015, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
 --- !u!1 &32429561
 GameObject:
@@ -647,6 +646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basic_Enemy_Melee
       objectReference: {fileID: 0}
+    - target: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8216983355978044830, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.98
@@ -690,10 +693,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9112840569522787066, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
 --- !u!1 &1099736692 stripped
 GameObject:
@@ -833,11 +833,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 739831436819624180, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.51
+      value: -6.97
       objectReference: {fileID: 0}
     - target: {fileID: 739831436819624180, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.75
+      value: -2.41
       objectReference: {fileID: 0}
     - target: {fileID: 739831436819624180, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_LocalPosition.z
@@ -899,6 +899,10 @@ PrefabInstance:
     - target: {fileID: 726887585180712042, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
       propertyPath: m_Name
       value: EnemySpawner2
+      objectReference: {fileID: 0}
+    - target: {fileID: 726887585180712042, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1322611635943797704, guid: be3d0c9c7628c8d4783757b98ff9128f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1211,11 +1215,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3841970429655726247, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.72
+      value: 6.09
       objectReference: {fileID: 0}
     - target: {fileID: 3841970429655726247, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.85
+      value: 3.38
       objectReference: {fileID: 0}
     - target: {fileID: 3841970429655726247, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1386,8 +1390,8 @@ SceneRoots:
   - {fileID: 1294974678653491556}
   - {fileID: 538433596769079194}
   - {fileID: 896704648}
-  - {fileID: 3087790257582443103}
   - {fileID: 8123033}
+  - {fileID: 3087790257582443103}
   - {fileID: 5704785852106590170}
   - {fileID: 2124561343}
   - {fileID: 616041886}
