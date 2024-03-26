@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3269561471404243911}
   - component: {fileID: 8640642628216959338}
   - component: {fileID: -1733683661506495478}
+  - component: {fileID: 1029964763058769465}
   m_Layer: 8
   m_Name: MagicEnemyExplosion
   m_TagString: SHOOTED
@@ -67,9 +68,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.027034879, y: -0.18023336}
   serializedVersion: 2
-  m_Radius: 0.73858666
+  m_Radius: 1.270275
 --- !u!114 &8640642628216959338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,6 +103,27 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: f6e7588d0ae29a04fbabc3fac6552262, type: 2}
+--- !u!95 &1029964763058769465
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6717075160048952437}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 672b2203e1a63ba4aa9328758468edb7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7507953008137547401
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,13 +149,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7507953008137547401}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.1564345, w: 0.98768836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6, y: 1.6, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7641212556422005936}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -18}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6256887065980217495
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -175,8 +197,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 49dac429e49e3e3429dbbf6752c0c8d2, type: 3}
-  m_Color: {r: 0.6981132, g: 0, b: 0.11519498, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 375687aa06cc90e438641974400300cb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
