@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CurrentBuild/Tutorial.unity
     guid: a1eecda1a9a750147999e7dcd49e51c0
   - enabled: 1
-    path: Assets/Scenes/CurrentBuild/Campaign.unity
-    guid: 2621c05303581e74bbdfb2dfd8483e64
-  - enabled: 1
     path: Assets/Scenes/CurrentBuild/Endless.unity
     guid: 966a6f71295555d49b6da34893e021be
+  - enabled: 1
+    path: Assets/Scenes/CurrentBuild/Campaign.unity
+    guid: e28a6b2986a3abc44a9122e28903c698
   m_configObjects: {}
