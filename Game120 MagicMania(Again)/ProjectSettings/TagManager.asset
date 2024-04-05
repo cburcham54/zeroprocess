@@ -10,6 +10,9 @@ TagManager:
   - BasicRangedSpawner
   - MagicRangedSpawner
   - JumpingMeleeSpawner
+  - Wall
+  - Projectile
+  - Player_Earth_Attack
   layers:
   - Default
   - TransparentFX
