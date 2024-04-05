@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9160989190110352303}
   m_Layer: 0
   m_Name: Earth_Ability_Center
-  m_TagString: Untagged
+  m_TagString: Player_Earth_Attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 3855708547217779154}
   m_Layer: 0
   m_Name: Ability_Bar1
-  m_TagString: Untagged
+  m_TagString: Player_Earth_Attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
