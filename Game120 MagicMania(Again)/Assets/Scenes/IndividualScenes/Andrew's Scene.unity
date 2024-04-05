@@ -470,6 +470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 7068510564784525083, guid: 2ba311b11b3265443bc4024a0d95dc95, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7175717954270889530, guid: 2ba311b11b3265443bc4024a0d95dc95, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.06445563
@@ -513,10 +517,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1809487290547632661, guid: 2ba311b11b3265443bc4024a0d95dc95, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ba311b11b3265443bc4024a0d95dc95, type: 3}
 --- !u!1 &139645324
 GameObject:
@@ -1791,5 +1792,5 @@ SceneRoots:
   - {fileID: 8930593167185938411}
   - {fileID: 13502676}
   - {fileID: 4866523497509519396}
-  - {fileID: 114523540}
   - {fileID: 5017024633800973875}
+  - {fileID: 114523540}
