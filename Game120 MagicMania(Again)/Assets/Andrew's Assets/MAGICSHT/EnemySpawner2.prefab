@@ -68,6 +68,9 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyList6","value":{"$content":[60,61,62,63,64,65,66,67,68,69,70,71,72,73,74],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyList7","value":{"$content":[75,76,77,78,79,80,81,82,83,84,85,86,87,88,89],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CurrentEnemyList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
@@ -84,7 +87,15 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EndlessWave","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EndlessList","value":{"$content":[90,91,92,93],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EndlessListItem","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyList8","value":{"$content":[94],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EndlessBossSpawned","value":{"$content":95,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
     - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
@@ -121,15 +132,15 @@ MonoBehaviour:
     - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
     - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
     - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
     - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
-    - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
     - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
     - {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
+    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+    - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
+    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+    - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
+    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
     - {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
     - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
     - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
@@ -161,6 +172,27 @@ MonoBehaviour:
     - {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
     - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
     - {fileID: 5203234919392129257, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
+    - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
+    - {fileID: 5203234919392129257, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
+    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+    - {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
+    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+    - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
+    - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
+    - {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
+    - {fileID: 5203234919392129257, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
+    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+    - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
+    - {fileID: 5203234919392129257, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
+    - {fileID: 5203234919392129257, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
+    - {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+    - {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
+    - {fileID: 5203234919392129257, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
+    - {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
+    - {fileID: 7068510564784525083, guid: 2ba311b11b3265443bc4024a0d95dc95, type: 3}
+    - {fileID: 7068510564784525083, guid: 2ba311b11b3265443bc4024a0d95dc95, type: 3}
 --- !u!114 &2080358795164876589
 MonoBehaviour:
   m_ObjectHideFlags: 0
