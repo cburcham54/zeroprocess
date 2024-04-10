@@ -135,10 +135,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Magic_Enemy_Ranged
       objectReference: {fileID: 0}
-    - target: {fileID: 5203234919392129257, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8216983355978044830, guid: 7027c42d5c5411445ad2f266c3f11c12, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.42
@@ -1271,10 +1267,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jumping_Enemy_Melee
       objectReference: {fileID: 0}
-    - target: {fileID: 6875020181698374170, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8296324046675625226, guid: 18d6c253b1927354c9f79e628f91bfa4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.94
@@ -1331,6 +1323,10 @@ PrefabInstance:
     - target: {fileID: 1003448727745822935, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295518687437419552, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 5203234919392129257, guid: 97f11ef4f2f548c42b244f34b0f59abe, type: 3}
       propertyPath: m_Name
@@ -1432,6 +1428,15 @@ PrefabInstance:
     - target: {fileID: 2041092584281111360, guid: c39b96cf136fee44a921324b3e640fad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609505237000383933, guid: c39b96cf136fee44a921324b3e640fad, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Player_Attack_Type","value":{"$content":"Earth","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player_Projectile_Damage","value":{"$content":8.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemiesDamaged","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6975809406277380572, guid: c39b96cf136fee44a921324b3e640fad, type: 3}
       propertyPath: m_Name
@@ -1619,10 +1624,6 @@ PrefabInstance:
     - target: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
       propertyPath: m_Name
       value: Basic_Enemy_Ranged
-      objectReference: {fileID: 0}
-    - target: {fileID: 2597802888561090580, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3841970429655726247, guid: a58c55fe763063b489218b2bdaf80c77, type: 3}
       propertyPath: m_LocalPosition.x
