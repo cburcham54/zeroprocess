@@ -1046,6 +1046,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 836182767489733102, guid: de24a15a170dcb64287455525dc3e242, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2533235635798422770, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1415,6 +1419,10 @@ PrefabInstance:
     - target: {fileID: 5149924429854931624, guid: 5ebedee55c4327247bebccffd98717ca, type: 3}
       propertyPath: m_Name
       value: Earth_Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149924429854931624, guid: 5ebedee55c4327247bebccffd98717ca, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6338167294200860195, guid: 5ebedee55c4327247bebccffd98717ca, type: 3}
       propertyPath: m_LocalPosition.x
