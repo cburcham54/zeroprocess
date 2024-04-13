@@ -626,7 +626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 66199051737996743, guid: 87cd89ece7d096d459cb6456c79fe0d3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2507351632184159312, guid: 87cd89ece7d096d459cb6456c79fe0d3, type: 3}
       propertyPath: _data._json
@@ -634,6 +634,22 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573020123400501391, guid: 87cd89ece7d096d459cb6456c79fe0d3, type: 3}
+      propertyPath: m_Size.x
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573020123400501391, guid: 87cd89ece7d096d459cb6456c79fe0d3, type: 3}
+      propertyPath: m_Size.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448834436878706236, guid: 87cd89ece7d096d459cb6456c79fe0d3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448834436878706236, guid: 87cd89ece7d096d459cb6456c79fe0d3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7448834436878706236, guid: 87cd89ece7d096d459cb6456c79fe0d3, type: 3}
       propertyPath: m_LocalPosition.x
