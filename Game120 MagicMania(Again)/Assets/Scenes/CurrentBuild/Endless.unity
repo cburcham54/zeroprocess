@@ -665,6 +665,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1881498936404387550, guid: de24a15a170dcb64287455525dc3e242, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2533235635798422770, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_SortingOrder
       value: 99
@@ -706,11 +710,12 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TakeDamageUI","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsDamageable","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PreDashLocation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GodModeCanvas","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6278735572025417212, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6278735572025417212, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
@@ -736,6 +741,30 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[5]
       value: 
       objectReference: {fileID: 1057385768}
+    - target: {fileID: 6985946341208911385, guid: de24a15a170dcb64287455525dc3e242, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193891929055708287, guid: de24a15a170dcb64287455525dc3e242, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7193891929055708287, guid: de24a15a170dcb64287455525dc3e242, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525052384191225181, guid: de24a15a170dcb64287455525dc3e242, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525052384191225181, guid: de24a15a170dcb64287455525dc3e242, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525052384191225181, guid: de24a15a170dcb64287455525dc3e242, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8153937595778919955, guid: de24a15a170dcb64287455525dc3e242, type: 3}
       propertyPath: m_Name
       value: Player
