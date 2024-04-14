@@ -1884,6 +1884,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5210078718553565845, guid: e5752661c24eb244385f73e928f505e5, type: 3}
+      propertyPath: m_text
+      value: 'Credits:
+
+
+        Christopher - Design Lead, Tech Lead
+
+        Zach
+        - Producer
+
+        Andrew - Content Lead'
+      objectReference: {fileID: 0}
     - target: {fileID: 7249856860212047926, guid: e5752661c24eb244385f73e928f505e5, type: 3}
       propertyPath: m_Name
       value: CREDITS
@@ -3974,7 +3986,8 @@ MonoBehaviour:
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BackButton","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CreditsMenu","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CreditsBackButton","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MusicController","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1300524685}
     - {fileID: 1555818656}
@@ -3985,6 +3998,7 @@ MonoBehaviour:
     - {fileID: 1227057924}
     - {fileID: 603911566}
     - {fileID: 820058783}
+    - {fileID: 255272031}
 --- !u!4 &1628888312
 Transform:
   m_ObjectHideFlags: 0
