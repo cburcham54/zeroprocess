@@ -7161,8 +7161,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Enemies Remaining:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cc00b7c4bb4dbc14489ae87235dacdf3, type: 2}
-  m_sharedMaterial: {fileID: -5573226313516104575, guid: cc00b7c4bb4dbc14489ae87235dacdf3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7151cad6c200f274dab6612097feada6, type: 2}
+  m_sharedMaterial: {fileID: -3694728377254019250, guid: 7151cad6c200f274dab6612097feada6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -34473,8 +34473,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Wave: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cc00b7c4bb4dbc14489ae87235dacdf3, type: 2}
-  m_sharedMaterial: {fileID: -5573226313516104575, guid: cc00b7c4bb4dbc14489ae87235dacdf3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7151cad6c200f274dab6612097feada6, type: 2}
+  m_sharedMaterial: {fileID: -3694728377254019250, guid: 7151cad6c200f274dab6612097feada6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
